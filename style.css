@@ -1,0 +1,92 @@
+body {
+  background-color: white;
+}
+
+p {
+  margin: 0;
+  padding-bottom: 3.2px;
+}
+
+/* Positioning of all elements */
+.main {
+  color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-self: flex-end;
+  align-items: flex-end;
+  margin-left: 80px;
+  position: absolute;
+  z-index: 2;
+}
+
+/* Positioning of the image */
+.affiche {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Font */
+.film {
+  font-family: '28 days later';
+  font-weight: 400;
+  font-size: 60px;
+}
+.acteur, .date {
+  font-family: 'helvetica';
+  font-weight: bold;
+}
+
+/* Direction,style/color font div.producteur, div.directeur */
+.producteur {
+  font-family: 'SF Movie Poster Condensed';
+  color : grey;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.text, .directeur {
+  font-family: 'SF Movie Poster Condensed';
+  color : grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/* graisse */
+.littleWrite {
+  font-size:25px;
+}
+.big {
+  font-size: 33px;
+  margin-top: 2px;
+}
+.small {
+  font-size: 16px;
+  align-items: baseline;
+  align-self: center;
+  text-align: right;
+}
+/* Space between */
+.littleWrite, .big, .small {
+  padding-right: 1px;
+}
+.directeur {
+  padding-bottom: 30px;
+}
+
+/* Date */
+.date {
+  font-size: 10px;
+  padding-bottom: 20px;
+}
+
+/* Actor */
+.acteur {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
